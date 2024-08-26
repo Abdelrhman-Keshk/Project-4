@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping (Login)</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="user-sec">
+            <div class="logo">
+                <a href="../index.html"><h3>Online Shopping</h3></a>
+            </div>
+        </div>
+    </header>
+        <div class="form-sec">
+            <form>
+                <div class="mb-3">
+                    <label for="email" class="form-label"><b>Email address</b></label>
+                    <input type="email" class="form-control" id="email">
+                    <div id="emailHelp" class="form-text"><b>Do you have an account? <a href="../pages/register.html">Register</a></b></div>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label" ><b>Password</b></label>
+                    <input type="password" class="form-control" id="password" autocomplete="on">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="rememberUser">
+                    <label class="form-check-label" for="rememberUser">Remember me</label>
+                </div>
+                <button id="submitBtn" type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>

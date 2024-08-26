@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping (Register)</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="user-sec">
+            <div class="logo">
+                <a href="../index.html"><h3>Online Shopping</h3></a>
+            </div>
+        </div>
+    </header>
+    <div class="form-sec">
+        <form>
+            <div class="row">
+                <div class="mb-3 col-12 col-md-12 col-lg-6">
+                    <label for="firstName" class="form-label"><b>First name</b></label>
+                    <input type="text" class="form-control" id="firstName">
+                </div>
+                <div class="mb-3 col-12 col-md-12 col-lg-6">
+                    <label for="lastName" class="form-label"><b>Last name</b></label>
+                    <input type="text" class="form-control" id="lastName">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label"><b>Email address</b></label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label"><b>Password</b></label>
+                <input type="password" class="form-control" id="password" autocomplete="on">
+            </div>
+            <button id="submitBtn" type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>    
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/register.js"></script>
+</body>
+</html>

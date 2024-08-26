@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping (Home)</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="user-sec">
+            <div class="logo">
+                <a href="index.html">
+                    <h3>Online Shopping</h3>
+                </a>
+            </div>
+            <div class="welcome-user d-none d-md-block"></div>
+            <div class="user-btns">
+                <div class="user-btns-item" id="signInUp">
+                    <a href="pages/login.html">
+                        <h4>Login</h4>
+                    </a>
+                    <a href="pages/register.html">
+                        <h4>Register</h4>
+                    </a>
+                </div>
+                <div class="user-btns-item" id="withAccount">
+                    <div class="cart">
+                        <div class="cart-item">
+                            <div class="cart-with-badge">
+                                <i class="fa-solid fa-cart-shopping cart-icon"></i>
+                                <span class="badge">0</span>
+                            </div>
+                            <h4>Cart</h4>
+                            <i class="fa-solid fa-caret-down caret"></i>
+                        </div>
+                        <div class="cart-div">
+                            <ul class="cart-items">
+                            </ul>
+                            <a href="pages/cart.html">
+                                <h5>View all products</h5>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#" id="logoutBtn" class="d-none d-md-block">
+                        <h4>Logout</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="search-sec">
+            <div class="row">
+                <div class="search-type col-12 col-md-12 col-lg-6">
+                    <select id="searchMode" title="type of search" class="focus-ring mb-3 mb-lg-0">
+                        <option>Search By Name</option>
+                        <option>Search By Category</option>
+                    </select>
+                </div>
+                <div class="search-input col-md-12 col-lg-6">
+                    <input type="search" class="form-control" id="searchInput" placeholder="Search"
+                        oninput="searchData()" />
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="products-sec container">
+            <div class="row justify-content-around products-container">
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
