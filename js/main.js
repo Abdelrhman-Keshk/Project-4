@@ -156,6 +156,7 @@ cartItem.addEventListener("click", () => {
 logoutBtn.addEventListener("click", () => {
     localStorage.removeItem("userInfo")
     localStorage.removeItem("productsInCart")
+    localStorage.removeItem("favourite")
     setTimeout(() => window.location = "pages/login.html", 1000)
 })
 

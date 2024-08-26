@@ -40,6 +40,7 @@ function productDraw(item) {
 logoutBtn.addEventListener("click", (e) => {
     localStorage.removeItem("userInfo")
     localStorage.removeItem("productsInCart")
+    localStorage.removeItem("favourite")
     setTimeout(() => window.location = "login.html", 1000)
 })
 
